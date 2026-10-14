@@ -1,0 +1,177 @@
+{
+  "fresh_monthly": [
+    {
+      "run": "jan2025_fresh",
+      "sessions": 20,
+      "total": 5772.92,
+      "ci95": [
+        -7225.378,
+        17558.969999999998
+      ],
+      "mean_vix": 17.091500000000003
+    },
+    {
+      "run": "feb2025_fresh",
+      "sessions": 19,
+      "total": 3804.42,
+      "ci95": [
+        -5790.855,
+        13198.4345
+      ],
+      "mean_vix": 17.11315789473684
+    },
+    {
+      "run": "mar2025_fresh",
+      "sessions": 21,
+      "total": 4045.1,
+      "ci95": [
+        -14015.119999999999,
+        20602.125
+      ],
+      "mean_vix": 22.030952380952378
+    },
+    {
+      "run": "apr2025_fresh",
+      "sessions": 21,
+      "total": -10799.84,
+      "ci95": [
+        -35995.546,
+        13827.280999999997
+      ],
+      "mean_vix": 32.568095238095246
+    },
+    {
+      "run": "may2025_fresh",
+      "sessions": 21,
+      "total": 8336.880000000001,
+      "ci95": [
+        -9202.91,
+        23694.748999999993
+      ],
+      "mean_vix": 20.764499999999998
+    }
+  ],
+  "fresh_total": 11159.48,
+  "accumulated_documented": {
+    "jan2025_fresh": -1038,
+    "feb2025_fresh": -5293,
+    "mar2025_fresh": -5108,
+    "apr2025_fresh": -3235,
+    "may2025_fresh": 10747
+  },
+  "put_share_vs_vix": {
+    "n_sessions": 101,
+    "pearson_r": 0.4367018612032157,
+    "r_ci95": [
+      0.3049560498501556,
+      0.5976800392366488
+    ],
+    "slope_per_vix_point": 0.009517523354224849
+  },
+  "gap_down_put_share_by_month": {
+    "jan2025_fresh": 0.36666666666666664,
+    "feb2025_fresh": 0.4852941176470588,
+    "mar2025_fresh": 0.5789473684210527,
+    "apr2025_fresh": 0.6814814814814815,
+    "may2025_fresh": 0.5769230769230769
+  },
+  "replicates": [
+    {
+      "runs": [
+        "apr2025_fresh",
+        "apr2025_replay"
+      ],
+      "matched_sessions": 21,
+      "total_a": -10799.84,
+      "total_b": 9736.04,
+      "daily_pnl_corr": 0.7622629720316776,
+      "mean_abs_daily_diff": 1488.672380952381
+    },
+    {
+      "runs": [
+        "apr2025_fresh",
+        "apr2025_rep1"
+      ],
+      "matched_sessions": 9,
+      "total_a": -15773.0,
+      "total_b": -22159.239999999998,
+      "daily_pnl_corr": 0.2544706245917686,
+      "mean_abs_daily_diff": 2693.1377777777775
+    },
+    {
+      "runs": [
+        "apr2025_replay",
+        "apr2025_rep1"
+      ],
+      "matched_sessions": 9,
+      "total_a": 3050.0,
+      "total_b": -22159.239999999998,
+      "daily_pnl_corr": 0.5310845604626856,
+      "mean_abs_daily_diff": 2814.582222222222
+    },
+    {
+      "runs": [
+        "jan2025_fresh",
+        "jan2025_rep1"
+      ],
+      "matched_sessions": 11,
+      "total_a": 2544.0,
+      "total_b": 5106.0,
+      "daily_pnl_corr": 0.8453174264656712,
+      "mean_abs_daily_diff": 716.7272727272727
+    }
+  ],
+  "apr_full_runs_totals": {
+    "apr2025_fresh": -10799.84,
+    "apr2025_replay": 9736.04
+  },
+  "kb_growth_fresh": {
+    "jan2025_fresh": 73,
+    "feb2025_fresh": 141,
+    "mar2025_fresh": 219,
+    "apr2025_fresh": 301,
+    "may2025_fresh": 375
+  },
+  "turns_median_by_run": {
+    "jan2025_fresh": 31.0,
+    "feb2025_fresh": 34.0,
+    "mar2025_fresh": 34.0,
+    "apr2025_fresh": 37.0,
+    "may2025_fresh": 33.0,
+    "apr2025_replay": 37.0,
+    "apr2025_rep1": 39.5,
+    "jan2025_rep1": 35.5,
+    "jul2025": 31.5,
+    "aug2025": 32.0
+  },
+  "rejected_open_rate": 0.21019345238095238,
+  "incomplete_sessions": [
+    {
+      "run": "apr2025_fresh",
+      "session": 8
+    },
+    {
+      "run": "may2025_fresh",
+      "session": 12
+    },
+    {
+      "run": "apr2025_rep1",
+      "session": 9
+    },
+    {
+      "run": "jan2025_rep1",
+      "session": 11
+    }
+  ],
+  "session_pnl_std_by_month": {
+    "jan2025_fresh": 1441.630374192249,
+    "feb2025_fresh": 1157.2396176574769,
+    "mar2025_fresh": 1994.4460839804024,
+    "apr2025_fresh": 2862.404270552325,
+    "may2025_fresh": 1899.8013078124022
+  },
+  "turns_vs_vix": {
+    "n_sessions": 181,
+    "pearson_r": 0.28651109368788935
+  }
+}
